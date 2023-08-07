@@ -3,21 +3,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #679186;
 }
 
 #container {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 30px;
+    margin: 20px;
     width: 640px;
     height: 640px;
-    background-color: blueviolet;
+    background-color: #264e70;
     padding: 1px;
 }
 
 .square {
-    background-color:aquamarine;
-    border: 1px solid blueviolet;
+    background-color:azure;
+    border: 1px solid #264e70;
     box-sizing: border-box;
+}
+
+.pressed {
+    background-color: #1b4e2d;
+    color: white;
+}
+
+button {
+    margin: 4px;
+    padding: 4px 8px;
 }
