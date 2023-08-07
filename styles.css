@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    width: 640px;
+    height: 640px;
+    background-color: blueviolet;
+    padding: 1px;
+}
+
+.square {
+    background-color:aquamarine;
+    border: 1px solid blueviolet;
+    box-sizing: border-box;
+}
